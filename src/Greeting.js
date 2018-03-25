@@ -1,12 +1,14 @@
 import React from "react";
-
+import Fiftyfifty from "./Fiftyfifty";
 
 class Greeting extends React.Component {
 
   render() {
     return (
-     <h1> Hi there, {this.props.firstName}</h1>
-
+      <div>
+        <h1> Hi there, {this.props.firstName}</h1>
+        <Fiftyfifty />
+      </div>
 
     )
   }
