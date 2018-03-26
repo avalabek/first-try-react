@@ -2,6 +2,7 @@ import React from "react";
 import Panel from "./Panel";
 import Listitem from "./Panel";
 import "./Listy.css";
+import Form from './Form';
 
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -24,7 +25,7 @@ class Listy extends React.Component {
       <div>
         <h1>Where is this? {this.props.friends}</h1>
         <Panel />
-        
+        <Form />
          </div>
     );
   }
