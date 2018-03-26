@@ -3,6 +3,7 @@ import Listy from "./Listy";
 import Card from "./Card";
 import Greeting from "./Greeting";
 import People from "./People";
+import Talk from "./Talk";
 
 // By extending the React.Component class, Counter inherits functionality from it
 class List extends React.Component {
@@ -30,10 +31,11 @@ class List extends React.Component {
             {/* Increment
           </button> */}
         <Listy friends="why can't I pass in a prop?"/>
-        <Greeting firstName='ANDREYA' />
-        <Greeting firstName={this.state.friends}/>
+        
       </div>
-  
+        <Greeting firstName='ANDREYA' />
+        <Greeting firstName={this.state.friends} />
+        <Talk />
         <Card />
       {/* <br />
       <Card />

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 
+
 // By extending the React.Component class, Counter inherits functionality from it
 class Card extends React.Component {
   // Setting the initial state of the Counter component
@@ -25,6 +26,7 @@ class Card extends React.Component {
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     This is some text within a card body.
   </div>
+         
   </div>
 
    </div>

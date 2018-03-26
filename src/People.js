@@ -1,5 +1,6 @@
 import React from "react";
 import List from "./List";
+
 // import Listitem from "./Listitem";
 // The below takes the array and maps them into list items
  const people = ["Does", "This", "Work"];
