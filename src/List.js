@@ -5,6 +5,7 @@ import Greeting from "./Greeting";
 import People from "./People";
 import Talk from "./Talk";
 
+
 // By extending the React.Component class, Counter inherits functionality from it
 class List extends React.Component {
   // Setting the initial state of the Counter component
