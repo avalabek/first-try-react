@@ -11,4 +11,5 @@ yarn start
 
 It should open in its own window and you can view what I created when I was first learning React. 
 
-For a more complex app, please view MedMYnder in my repo.
+### For a more complex full-stack React app, please view MedMYnder in my repo.
+[link to MedMynder][(https://github.com/avalabek/medmynder)
